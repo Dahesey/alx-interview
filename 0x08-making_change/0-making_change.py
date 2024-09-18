@@ -15,10 +15,9 @@ def makeChange(coins, total):
         coin.reverse()
         counter = 0
         for i in coin:
-            while(total >= i):
+            while (total >= i):
                 counter += 1
                 total -= i
         if total == 0:
             return counter
         return -1
-
