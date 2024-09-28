@@ -1,1 +1,0 @@
-A function to return the perimter of an island grid
